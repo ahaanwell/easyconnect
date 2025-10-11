@@ -22,7 +22,7 @@ export default function QuickEasySection() {
           </h2>
 
           <p className="text-gray-700 text-lg leading-relaxed">
-            EasyConnect automatically scans, downloads, and installs the latest drivers—ensuring your system stays compatible and performs at its best.
+            EasyConnect automatically scans, downloads, and installs the latest drivers ensuring your system stays compatible and performs at its best.
           </p>
 
           <div className="flex flex-wrap gap-4 pt-4">

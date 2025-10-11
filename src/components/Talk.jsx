@@ -6,7 +6,7 @@ function Talk() {
     }
   };
   return (
-    <section id="contact" className="bg-gradient-to-b from-white via-sky-50 to-sky-100">
+    <section id="talk" className="bg-gradient-to-b from-white via-sky-50 to-sky-100">
       <div className="container py-16 md:py-20">
         <div className="flex gap-8 justify-center items-center">
           <div className="flex flex-col max-w-2xl text-center justify-center items-center gap-6">
@@ -17,7 +17,7 @@ function Talk() {
           </span>
             </h2>
             <p className="mt-4 text-gray-700">
-              Our dedicated support team is here to assist with any questions or concerns you may have. We’re committed to providing prompt, helpful responses to ensure your complete satisfaction.
+              Our dedicated team is here to assist with any questions or concerns you may have. We’re committed to providing prompt, helpful responses to ensure your complete satisfaction.
             </p>
             <button
               onClick={openChat}

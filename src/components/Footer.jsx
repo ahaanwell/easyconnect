@@ -27,7 +27,7 @@ export default function Footer() {
         </Link>
               </div>
               <p className="text-gray-400 mb-6 leading-relaxed">
-                EasyConnect delivers seamless PC care — automatic driver updates, system optimization, and enhanced security to keep your devices running smoothly.
+                EasyConnect delivers seamless PC care automatic driver updates, system optimization, and enhanced security to keep your devices running smoothly.
               </p>
               <div className="flex space-x-4">
                 <a href="#" className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-white/20 transition-colors">
@@ -89,42 +89,6 @@ export default function Footer() {
               </ul>
             </div>
 
-            {/* Support */}
-            <div>
-              <h3 className="text-lg font-semibold text-white mb-6 flex items-center">
-                <svg className="w-5 h-5 mr-2 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192L5.636 18.364M12 2.25a9.75 9.75 0 100 19.5 9.75 9.75 0 000-19.5z" />
-                </svg>
-                Support
-              </h3>
-              <ul className="space-y-3">
-                <li><a href="#faq" className="text-gray-400 hover:text-white transition-colors flex items-center group">
-                  <svg className="w-4 h-4 mr-2 opacity-0 group-hover:opacity-100 transition-opacity" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                  </svg>
-                  FAQ
-                </a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors flex items-center group">
-                  <svg className="w-4 h-4 mr-2 opacity-0 group-hover:opacity-100 transition-opacity" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                  </svg>
-                  Contact Us
-                </a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors flex items-center group">
-                  <svg className="w-4 h-4 mr-2 opacity-0 group-hover:opacity-100 transition-opacity" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                  </svg>
-                  Help Center
-                </a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors flex items-center group">
-                  <svg className="w-4 h-4 mr-2 opacity-0 group-hover:opacity-100 transition-opacity" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                  </svg>
-                  System Requirements
-                </a></li>
-              </ul>
-            </div>
-
             {/* Legal */}
             <div>
               <h3 className="text-lg font-semibold text-white mb-6 flex items-center">
@@ -165,6 +129,19 @@ export default function Footer() {
                   Terms & Conditions
                 </Link></li>
               </ul>
+            </div>
+
+            {/* Support */}
+            <div>
+              <h3 className="text-lg font-semibold text-white mb-6 flex items-center">
+                <svg className="w-5 h-5 mr-2 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192L5.636 18.364M12 2.25a9.75 9.75 0 100 19.5 9.75 9.75 0 000-19.5z" />
+                </svg>
+                Support
+              </h3>
+              <p className='text-white'>
+                support@easyconnectnow.com
+              </p>
             </div>
           </div>
 
