@@ -15,10 +15,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "EasyConnect | Automatic Driver Updates & PC Optimization",
+  title: "EasyConnect | Driver Updates & System Optimization",
   description:
-    "EasyConnect automatically updates your drivers, optimizes system performance, and enhances security to keep your computer running smoothly and safely.",
+    "Keep your PC running smoothly with EasyConnect. Update drivers, optimize performance, and improve security for a faster, more reliable experience.",
 };
+
 
 export default function RootLayout({ children }) {
   return (

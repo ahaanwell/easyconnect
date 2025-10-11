@@ -4,26 +4,59 @@ function WorkWithDevices() {
   <div className="container py-20 md:px-20">
     
     <h2 className="text-2xl md:text-4xl font-extrabold text-center text-[#04121d] leading-snug">
-          Seamless Support for All Your Devices with{" "}
+          Seamless Works for All Your Devices with{" "}
           <span className="text-sky-600">
             EasyConnect
           </span>
         </h2>
     <p className="text-center text-gray-600 mt-4 max-w-2xl mx-auto">
-      Compatible with everything from common consumer devices to high-end professional hardware.
+      EasyConnect helps keep your PC up to date with smart driver updates, performance optimization, and reliable system maintenance for a smoother experience.
     </p>
 
     <div className="mt-14 grid sm:grid-cols-2 lg:grid-cols-4 gap-8 px-10 md:px-0">
       {[
-  { icon: '🌐', title: 'Network Adapters', items: 'Ethernet cards, routers, hubs, communication devices, port expanders, and more.' },
-  { icon: '🖥️', title: 'Monitor', items: 'LCD screens, smart TVs, USB-connected displays, and various visual output devices.' },
-  { icon: '🖨️', title: 'Printer', items: 'Printers, plotters, scanners, copiers, and 3D printing devices.' },
-  { icon: '⌨️', title: 'Input Device', items: 'Keyboards, mice, joysticks, trackpads, gaming controllers, and others.' },
-  { icon: '📶', title: 'Bluetooth Device', items: 'Adapters, wireless headsets, earbuds, speakers, and connected smart gadgets.' },
-  { icon: '📡', title: 'Wi-Fi Device', items: 'Wireless adapters, signal boosters, mobile broadband devices, and related hardware.' },
-  { icon: '🎥', title: 'Webcam', items: 'IP cameras, action cameras, security cameras, baby monitors, and more.' },
-  { icon: '🎧', title: 'Sound Card', items: 'Audio interfaces, amplifiers, microphones, speakers, and headphones.' }
+  {
+    icon: '🌐',
+    title: 'Smart Network',
+    items: 'Reliable Ethernet cards, routers, hubs, and communication tools for seamless connectivity.'
+  },
+  {
+    icon: '🖥️',
+    title: 'Display & Monitor',
+    items: 'High-quality LCDs, smart screens, and USB displays for clear and vibrant visuals.'
+  },
+  {
+    icon: '🖨️',
+    title: 'Printing & Scanning',
+    items: 'Efficient printers, plotters, scanners, and 3D printing solutions for work and creativity.'
+  },
+  {
+    icon: '⌨️',
+    title: 'Input & Control',
+    items: 'Keyboards, mice, joysticks, and gaming controllers designed for precision and comfort.'
+  },
+  {
+    icon: '📶',
+    title: 'Bluetooth',
+    items: 'Adapters, wireless headsets, earbuds, and smart devices for easy wireless connections.'
+  },
+  {
+    icon: '📡',
+    title: 'Wi-Fi & Connectivity',
+    items: 'Boosters, adapters, and mobile broadband tools for stronger, faster wireless performance.'
+  },
+  {
+    icon: '🎥',
+    title: 'Cameras & Webcams',
+    items: 'Webcams, IP cameras, and security devices for streaming, monitoring, and clarity.'
+  },
+  {
+    icon: '🎧',
+    title: 'Audio & Sound',
+    items: 'Sound cards, microphones, speakers, and headphones for premium sound quality.'
+  }
 ]
+
 .map(({ icon, title, items }) => (
         <div
           key={title}

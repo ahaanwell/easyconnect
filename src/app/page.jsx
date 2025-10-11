@@ -5,6 +5,8 @@ import WorkWithDevices from '@/components/WorkWithDevices'
 import DriverPack from '@/components/DriverPack'
 import Talk from '@/components/Talk'
 import MainLayout from '@/components/MainLaout'
+import CostumersReview from '@/components/CostumersReview'
+import FAQList from '@/components/FaqList'
 
 export default function Home() {
   return (
@@ -27,6 +29,8 @@ export default function Home() {
       <DriverPack/>
 
       {/* Contact */}
+      <CostumersReview/>
+      <FAQList/>
       <Talk/>
     </MainLayout>
   )

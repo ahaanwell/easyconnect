@@ -19,7 +19,7 @@ function Hero() {
             <span className="text-sky-300 block">Protect Your System</span>
           </h1>
           <p className="text-blue-100 text-base sm:text-lg leading-relaxed max-w-md mx-auto md:mx-0">
-            EasyConnect handles updates and optimization automatically. so your computer stays stable, fast, and reliable
+            EasyConnect effortlessly handles updates and optimizations, keeping your computer running smoothly, quickly, and reliably at all times.
           </p>
 
           {/* Buttons */}
