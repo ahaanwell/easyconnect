@@ -126,11 +126,6 @@ export default function PrivacyPolicyPage() {
           <p className="mb-4 leading-relaxed">
             For inquiries or concerns about this Privacy Policy or how Easyconnect handles personal information, please contact us through our website. We will investigate and respond promptly to any reported issues.
           </p>
-
-          <hr className="my-8" />
-          <p className="text-sm text-gray-600">
-            Updated: {new Date().getFullYear()} • Easyconnect LLC
-          </p>
         </article>
       </section>
     </main>

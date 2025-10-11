@@ -73,11 +73,6 @@ export default function RefundPolicyPage() {
           <p className="mb-4 leading-relaxed">
             Once a refund is approved, the associated license will be deactivated. For downloaded software, the product must be removed from your device. Refunds are issued to the original payment method (credit card, bank account, or PayPal). Processing times may vary, typically 48 to 72 hours.
           </p>
-
-          <hr className="my-8" />
-          <p className="text-sm text-gray-600">
-            Updated: {new Date().getFullYear()} • Easyconnect LLC
-          </p>
         </article>
       </section>
     </main>

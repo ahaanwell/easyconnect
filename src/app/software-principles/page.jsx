@@ -16,7 +16,7 @@ export default function SoftwarePrinciplesPage() {
             Our software policies are designed to protect users’ rights and ensure a safe, reliable, and respectful experience.
           </p>
           <p className="mt-2 text-sky-200 max-w-3xl mx-auto text-base sm:text-lg md:text-xl leading-relaxed">
-            Effective Date: 01/03/2023
+            Effective Date: 01/12/2021
           </p>
         </div>
       </header>
@@ -72,12 +72,6 @@ export default function SoftwarePrinciplesPage() {
           </p>
           <p className="mb-4 leading-relaxed">
             Our app has received certifications from reputable entities, such as AppEsteem, confirming compliance with stringent consumer protection standards in the software monetization industry.
-          </p>
-
-          <hr className="my-8" />
-
-          <p className="text-sm text-gray-600">
-            Updated: {new Date().getFullYear()} • Easyconnect LLC, 14 West Second Street, Suite 108, Upland, CA 91786
           </p>
         </article>
       </section>

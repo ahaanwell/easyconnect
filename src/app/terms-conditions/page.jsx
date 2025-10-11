@@ -28,7 +28,7 @@ export default function TermsConditionsPage() {
           </h2>
 
           <p className="mb-4 leading-relaxed">
-            <strong>Effective Date:</strong> December 1st, 2019
+            <strong>Effective Date:</strong> December 1st, 2021
           </p>
 
           <p className="mb-4 leading-relaxed">
@@ -949,13 +949,6 @@ export default function TermsConditionsPage() {
             non-personalized online ads.
           </p>
         </section>
-
-          <hr className="my-8" />
-
-          <p className="text-sm text-gray-600">
-            © {new Date().getFullYear()} Easyconnect LLC • 123 East 9th Street, Suite #323, Upland, California 91786 • All Rights Reserved.
-          </p>
-
         </article>
       </section>
     </main>

@@ -149,12 +149,6 @@ export default function EulaPage() {
           <p className="mb-4 leading-relaxed">
             You may reject arbitration by emailing EasyConnect within 30 days of Software acquisition: <a href="mailto:support@easyconnectnow.com" className="text-sky-700 underline">support@easyconnectnow.com</a>. Include your name, date, and license info. Opt-out does not affect other rights.
           </p>
-
-          <hr className="my-8" />
-
-          <p className="text-sm text-gray-600">
-            Updated: {new Date().getFullYear()} • EasyConnect LLC, 14 West Second Street, Suite 108, Upland, CA 91786
-          </p>
         </article>
       </section>
     </main>
