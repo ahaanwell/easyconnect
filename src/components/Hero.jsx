@@ -57,7 +57,7 @@ function Hero() {
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 pt-6 sm:pt-8 justify-center md:justify-start">
             <div className="flex items-center gap-2 text-blue-100 text-sm sm:text-base">
               <span className="text-green-400 text-lg sm:text-xl">✓</span>
-              Auto Driver Updates
+              Easy Driver Updates
             </div>
             <div className="flex items-center gap-2 text-blue-100 text-sm sm:text-base">
               <span className="text-yellow-400 text-lg sm:text-xl">⚡</span>
